@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  text-align: center;
+}
+#heading {
+  margin-top: 0px;
+  font-size: 25vw;
+}
+#Remember {
+  font-size: 2.5vw;
+  color: gray;
+  letter-spacing: 1.3vw;
+  cursor: pointer;
+}
+.outer {
+  margin-top: 5px;
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#inputs {
+  width: 60vw;
+  height: 40px;
+  text-align: center;
+  border: 2px solid black;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.para {
+  width: 80%;
+  height: 30px;
+  border: 1px solid white;
+  margin-top: 5px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+.line-through {
+  text-decoration: line-through;
+  background-color: rgb(8, 155, 28);
+}
+
+.todo {
+  margin: 5px;
+  color: white;
+  font-size: 5vw;
+}
+.tips {
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: black;
+  transition: all ease 0.3s;
+  color: rgb(255, 238, 218);
+  border: 2px solid gray;
+  font-size: 16px;
+}
+#do-list {
+  display: inline-block;
+  vertical-align: middle;
+}
+#add {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  width: 100px;
+  height: 45px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+#add:active {
+  color: white;
+  background-color: black;
+}
+.tips:hover {
+  scale: 1.02;
+  box-shadow: 0px 0px 1.3vw black;
+}
+
+.outer-tips {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #551a8b;
+  border-radius: 5px;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2vw;
+}
+footer {
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 50px;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+  color: white;
+}
+hr {
+  width: 50vw;
+}
+
+.author {
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.getTouch {
+  margin-left: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+#footer-btn {
+  position: absolute;
+  right: 10px;
+
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+}
+#getTouch {
+  width: 500px;
+  text-align: left;
+}
+
+.img {
+  height: 15vw;
+  width: 15vw;
+  border: 1px solid rgb(84, 0, 105);
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 20px;
+  background-color: white;
+  align-items: center;
+  display: inline-block;
+}
+
+#footer-title {
+  font-size: 5vw;
+  color: #551a8b;
+}
+a {
+  text-decoration: none;
+}
+#icons {
+  margin-top: 15px;
+  letter-spacing: 10px;
+}
